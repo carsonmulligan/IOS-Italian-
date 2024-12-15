@@ -137,5 +137,197 @@
       "question": "Quale città d'arte italiana ti piacerebbe visitare di più e perché? C'è qualche monumento o museo che non vedi l'ora di vedere?",
       "question_emojis": ["❓", "🏰", "❤️", "🖼️", "🏙️", "🔍"]
     }
-  ]
-  
+    
+    {
+        "statement": "Ho sempre ammirato le ville storiche di Roma, con i loro giardini ben curati e l'architettura maestosa. Passeggiare tra queste ville mi fa sentire come se stessi vivendo in un'epoca passata.",
+        "statement_emojis": ["❤️", "🏛️", "🏡", "🌳", "🔍", "🏰", "🚶‍♂️", "⏳", "🌿", "✨"],
+        "question": "Qual è la tua villa preferita a Roma e cosa ti affascina di più di essa?",
+        "question_emojis": ["❓", "🏡", "❤️", "🏛️", "🔍", "✨"]
+    },
+    {
+        "statement": "La cucina toscana è rinomata per i suoi piatti semplici ma saporiti, come la ribollita e la bistecca alla fiorentina. Ogni morso è un'esperienza autentica della tradizione culinaria locale.",
+        "statement_emojis": ["🍽️", "🇮🇹", "🍲", "🥩", "❤️", "🌿", "🍷", "👩‍🍳", "🍅", "🥗"],
+        "question": "Hai mai provato la bistecca alla fiorentina? Cosa ne pensi?",
+        "question_emojis": ["❓", "🥩", "❤️", "👨‍🍳", "🤔", "🍽️"]
+    },
+    {
+        "statement": "L'arte contemporanea a Milano è molto vivace, con numerose gallerie che espongono opere innovative. È stimolante vedere come gli artisti moderni interpretano la tradizione italiana.",
+        "statement_emojis": ["🎨", "🇮🇹", "🏙️", "🖼️", "✨", "🏢", "👩‍🎨", "🖌️", "🔍", "🌟"],
+        "question": "Quale galleria d'arte contemporanea a Milano ti piace di più e perché?",
+        "question_emojis": ["❓", "🏢", "❤️", "🎨", "✨", "🔍"]
+    },
+    {
+        "statement": "Durante l'autunno, le colline umbre si trasformano in un mare di colori caldi grazie ai vigneti e agli alberi di quercia. È il periodo perfetto per esplorare la natura e degustare i vini locali.",
+        "statement_emojis": ["🍂", "🇮🇹", "🌄", "🍇", "🌳", "🔍", "🍷", "❤️", "🚶‍♂️", "🌿"],
+        "question": "Qual è il tuo vino preferito dell'Umbria e dove ti piace degustarlo?",
+        "question_emojis": ["❓", "🍷", "❤️", "🌍", "🔍", "🏞️"]
+    },
+    {
+        "statement": "Le spiagge della Sardegna sono tra le più belle del Mediterraneo, con acque cristalline e sabbie bianche. Ogni estate, migliaia di turisti vengono qui per godersi il sole e il mare.",
+        "statement_emojis": ["🏖️", "🇮🇹", "🌊", "☀️", "🏝️", "👙", "🌞", "🏄‍♂️", "🍹", "❤️"],
+        "question": "Quale spiaggia della Sardegna consiglieresti per una vacanza rilassante e perché?",
+        "question_emojis": ["❓", "🏖️", "❤️", "🌊", "🏝️", "🔍"]
+    },
+    {
+        "statement": "Il Carnevale di Viareggio è famoso per i suoi carri allegorici e le sfilate spettacolari. Ogni anno, migliaia di persone si riuniscono per celebrare questa tradizione con musica, colori e divertimento.",
+        "statement_emojis": ["🎭", "🇮🇹", "🎉", "🚗", "✨", "🎶", "🌈", "👥", "💃", "🕺"],
+        "question": "Hai mai partecipato al Carnevale di Viareggio? Qual è il tuo ricordo preferito?",
+        "question_emojis": ["❓", "🎭", "❤️", "🚗", "🎉", "✨"]
+    },
+    {
+        "statement": "Le Dolomiti offrono scenari mozzafiato per gli amanti dello sci e dell'escursionismo. Le cime innevate e i sentieri panoramici rendono ogni visita un'avventura indimenticabile.",
+        "statement_emojis": ["🏔️", "❄️", "🎿", "🚶‍♂️", "🌄", "❤️", "🌨️", "🧗‍♂️", "✨", "📸"],
+        "question": "Qual è il tuo sentiero preferito nelle Dolomiti e perché?",
+        "question_emojis": ["❓", "🚶‍♂️", "❤️", "🏔️", "✨", "🌲"]
+    },
+    {
+        "statement": "Il Vesuvio è uno dei vulcani più iconici d'Italia, con una storia geologica affascinante. Salire fino alla cima offre una vista spettacolare sulla città di Napoli e sul Golfo di Napoli.",
+        "statement_emojis": ["🌋", "🇮🇹", "📜", "🔍", "🏞️", "🧗‍♀️", "👀", "🌆", "🌊", "❤️"],
+        "question": "Hai mai visitato il Vesuvio? Com'è stata la tua esperienza?",
+        "question_emojis": ["❓", "🌋", "❤️", "🏞️", "👀", "🧗‍♂️"]
+    },
+    {
+        "statement": "La tradizione del presepe in Italia è molto sentita, soprattutto durante il periodo natalizio. Ogni città ha le sue peculiarità, con figure artigianali e scenografie elaborate.",
+        "statement_emojis": ["🎄", "🇮🇹", "🕯️", "👶", "🏠", "✨", "🎨", "🌟", "🔍", "❤️"],
+        "question": "Come celebrano il presepe nella tua città? Hai qualche tradizione speciale?",
+        "question_emojis": ["❓", "🎄", "❤️", "🏠", "✨", "🔍"]
+    },
+    {
+        "statement": "Il Lago di Como è famoso per le sue ville storiche e i giardini lussureggianti. Le acque tranquille e le montagne circostanti creano un ambiente perfetto per rilassarsi e godersi la natura.",
+        "statement_emojis": ["🏞️", "🇮🇹", "🏡", "🌿", "🌊", "🏔️", "❤️", "🚣‍♂️", "📸", "🌅"],
+        "question": "Quale villa sul Lago di Como ti piacerebbe visitare e perché?",
+        "question_emojis": ["❓", "🏡", "❤️", "🏞️", "📸", "🌅"]
+    },
+    {
+        "statement": "Il Carnevale di Ivrea è noto per la storica battaglia delle arance, un evento unico che richiama partecipanti da tutto il mondo. Questo festival celebra la storia e la cultura della città in modo vivace e coinvolgente.",
+        "statement_emojis": ["🎭", "🇮🇹", "🍊", "⚔️", "🎉", "🌍", "🏰", "✨", "👥", "💪"],
+        "question": "Cosa ne pensi della battaglia delle arance al Carnevale di Ivrea? Ti piacerebbe partecipare?",
+        "question_emojis": ["❓", "🍊", "⚔️", "❤️", "🎉", "✨"]
+    },
+    {
+        "statement": "Il Pizzoccheri valtellinesi è un piatto tradizionale a base di grano saraceno, verza e formaggio. Questa ricetta risale a secoli fa ed è ancora molto amata nelle regioni alpine.",
+        "statement_emojis": ["🍲", "🇮🇹", "🌾", "🥬", "🧀", "❤️", "⏳", "🏔️", "🍴", "✨"],
+        "question": "Hai mai assaggiato i pizzoccheri? Qual è il tuo piatto tradizionale preferito?",
+        "question_emojis": ["❓", "🍲", "❤️", "🍴", "🥬", "✨"]
+    },
+    {
+        "statement": "Il Teatro alla Scala di Milano è uno dei teatri d'opera più prestigiosi al mondo. Ogni stagione ospita spettacoli di altissimo livello, attirando artisti e appassionati da ogni angolo del globo.",
+        "statement_emojis": ["🎭", "🇮🇹", "🏛️", "🌟", "🎶", "👩‍🎤", "🌍", "✨", "❤️", "🎟️"],
+        "question": "Hai mai assistito a uno spettacolo alla Scala? Quale performance ti ha colpito di più?",
+        "question_emojis": ["❓", "🎭", "❤️", "🌟", "🎶", "✨"]
+    },
+    {
+        "statement": "La tradizione del caffè espresso in Italia è radicata nella vita quotidiana. Ogni mattina, milioni di italiani iniziano la giornata con una tazza di caffè, apprezzando il gusto intenso e il rituale sociale che lo accompagna.",
+        "statement_emojis": ["☕", "🇮🇹", "📅", "❤️", "🕰️", "🌞", "👥", "✨", "🍃", "💬"],
+        "question": "Qual è il tuo modo preferito di gustare un caffè espresso? Preferisci farlo al bar o a casa?",
+        "question_emojis": ["❓", "☕", "❤️", "🏠", "👥", "✨"]
+    },
+    {
+        "statement": "Le Cinque Terre offrono sentieri panoramici che collegano i cinque pittoreschi villaggi costieri. Camminare lungo questi percorsi permette di ammirare viste spettacolari sul Mar Ligure e scoprire la bellezza unica di ogni borgo.",
+        "statement_emojis": ["🏞️", "🇮🇹", "🚶‍♂️", "🏘️", "🌊", "🏔️", "❤️", "🔍", "✨", "📸"],
+        "question": "Quale dei cinque villaggi delle Cinque Terre ti piacerebbe esplorare di più e perché?",
+        "question_emojis": ["❓", "🏘️", "❤️", "🌊", "🔍", "📸"]
+    },
+    {
+        "statement": "Il Rinascimento italiano ha lasciato un'impronta indelebile nell'arte e nell'architettura. Opere di artisti come Leonardo da Vinci e Michelangelo sono ammirate in tutto il mondo per la loro bellezza e innovazione.",
+        "statement_emojis": ["🎨", "🇮🇹", "🏛️", "🖼️", "👨‍🎨", "🎨", "🌍", "✨", "❤️", "🧠"],
+        "question": "Qual è la tua opera rinascimentale preferita e perché?",
+        "question_emojis": ["❓", "🖼️", "❤️", "🎨", "✨", "🔍"]
+    },
+    {
+        "statement": "La tradizione del caffè corretto, un espresso con un goccio di liquore, è molto diffusa in alcune regioni italiane. Questo abbinamento aggiunge un tocco di sapore in più al classico caffè, rendendolo ancora più piacevole.",
+        "statement_emojis": ["☕", "🍸", "🇮🇹", "❤️", "✨", "🍹", "🌿", "🔍", "🎉", "💬"],
+        "question": "Hai mai provato il caffè corretto? Quale liquore preferisci aggiungere?",
+        "question_emojis": ["❓", "☕", "🍸", "❤️", "🔍", "🍹"]
+    },
+    {
+        "statement": "Il Palio di Siena è una corsa di cavalli storica che si tiene due volte all'anno nella famosa Piazza del Campo. Questa competizione emozionante è radicata nella tradizione senese e attira spettatori da tutto il mondo.",
+        "statement_emojis": ["🏇", "🇮🇹", "📅", "❤️", "🎉", "🏟️", "🌍", "✨", "👀", "🎟️"],
+        "question": "Hai mai assistito al Palio di Siena? Quali sono le tue impressioni sull'evento?",
+        "question_emojis": ["❓", "🏇", "❤️", "🎉", "✨", "👀"]
+    },
+    {
+        "statement": "Il mercato di San Lorenzo a Firenze è un luogo vivace dove si possono trovare tessuti, abbigliamento e souvenir artigianali. Passeggiare tra le bancarelle è un'esperienza autentica che riflette lo spirito commerciale della città.",
+        "statement_emojis": ["🛍️", "🇮🇹", "🏙️", "🧵", "👗", "🎁", "❤️", "🚶‍♀️", "✨", "🛒"],
+        "question": "Qual è il tuo souvenir preferito che hai trovato al mercato di San Lorenzo?",
+        "question_emojis": ["❓", "🎁", "❤️", "🛍️", "✨", "🔍"]
+    },
+    {
+        "statement": "La tradizione del 'caffè sospeso' a Napoli permette a chi non può permettersi un caffè di riceverne uno gratuito. Questo gesto di solidarietà riflette lo spirito generoso della comunità napoletana.",
+        "statement_emojis": ["☕", "🇮🇹", "❤️", "🙏", "✨", "👥", "🔄", "💬", "🌟", "🤝"],
+        "question": "Conosci altre tradizioni di solidarietà in Italia? Quali ti ispirano di più?",
+        "question_emojis": ["❓", "❤️", "🌟", "✨", "🙏", "🤝"]
+    },
+    {
+        "statement": "Il Prosecco, vino spumante originario del Veneto, è apprezzato in tutto il mondo per il suo gusto fresco e fruttato. È perfetto per aperitivi e celebrazioni speciali.",
+        "statement_emojis": ["🍾", "🇮🇹", "🍇", "🥂", "❤️", "✨", "🍾", "🍷", "🎉", "🍹"],
+        "question": "Qual è il tuo modo preferito di gustare il Prosecco? Lo preferisci puro o in cocktail?",
+        "question_emojis": ["❓", "🍾", "❤️", "🍹", "✨", "🥂"]
+    },
+    {
+        "statement": "Le terme di Saturnia in Toscana sono famose per le loro acque termali naturali e le cascate di marmo. Un luogo ideale per rilassarsi e rigenerarsi immersi nella natura.",
+        "statement_emojis": ["♨️", "🇮🇹", "🌿", "💧", "🏞️", "🧖‍♀️", "❤️", "✨", "🏊‍♂️", "📸"],
+        "question": "Hai mai visitato le terme di Saturnia? Quali sono le tue impressioni?",
+        "question_emojis": ["❓", "♨️", "❤️", "🌿", "✨", "🏊‍♀️"]
+    },
+    {
+        "statement": "La festa di Ferragosto in Italia è celebrata con fuochi d'artificio, sagre e grigliate all'aperto. È un momento di gioia e condivisione per famiglie e amici in tutto il paese.",
+        "statement_emojis": ["🎆", "🇮🇹", "🎉", "🍖", "❤️", "👨‍👩‍👧‍👦", "✨", "🔥", "🌞", "🎶"],
+        "question": "Come celebrano Ferragosto nella tua regione? Hai qualche tradizione speciale?",
+        "question_emojis": ["❓", "🎉", "❤️", "🍖", "✨", "🔥"]
+    },
+    {
+        "statement": "Il Panettone milanese è un dolce tradizionale natalizio noto per la sua consistenza soffice e gli ingredienti come canditi e uvetta. È amato da molte persone in tutto il mondo durante le festività.",
+        "statement_emojis": ["🍰", "🇮🇹", "🎄", "❤️", "🍇", "🍒", "✨", "🧁", "🎁", "🍽️"],
+        "question": "Preferisci il panettone classico o con aggiunte particolari? Qual è il tuo preferito?",
+        "question_emojis": ["❓", "🍰", "❤️", "🍒", "✨", "🧁"]
+    },
+    {
+        "statement": "Il Ponte Vecchio a Firenze è uno dei ponti più famosi al mondo, noto per le sue botteghe artigiane e la vista spettacolare sull'Arno. È un simbolo della città e un luogo imperdibile per i visitatori.",
+        "statement_emojis": ["🌉", "🇮🇹", "🏛️", "🛍️", "❤️", "👀", "✨", "🌊", "🚶‍♂️", "📸"],
+        "question": "Cosa ti colpisce di più del Ponte Vecchio? Hai mai acquistato qualcosa lì?",
+        "question_emojis": ["❓", "🌉", "❤️", "🛍️", "👀", "📸"]
+    },
+    {
+        "statement": "La pizza napoletana è celebre per la sua base sottile, il cornicione alto e l'utilizzo di ingredienti freschi come la mozzarella di bufala e il pomodoro San Marzano. È un'arte culinaria che ha conquistato il mondo.",
+        "statement_emojis": ["🍕", "🇮🇹", "❤️", "🌿", "🧀", "🍅", "✨", "🔥", "👨‍🍳", "🌍"],
+        "question": "Qual è la tua pizza napoletana preferita? Hai un pizzaiolo da consigliare?",
+        "question_emojis": ["❓", "🍕", "❤️", "🧀", "✨", "👨‍🍳"]
+    },
+    {
+        "statement": "Il Festival del Cinema di Venezia è uno degli eventi cinematografici più prestigiosi al mondo. Registi, attori e appassionati si riuniscono per celebrare l'arte del cinema in una cornice unica.",
+        "statement_emojis": ["🎬", "🇮🇹", "🌟", "🎥", "🏛️", "✨", "❤️", "🏆", "👥", "🌍"],
+        "question": "Hai mai partecipato al Festival del Cinema di Venezia? Quale film ti ha colpito di più?",
+        "question_emojis": ["❓", "🎬", "❤️", "🎥", "✨", "🏆"]
+    },
+    {
+        "statement": "Il caffè espresso è parte integrante della cultura italiana. Ogni giorno, le persone si incontrano nei bar per gustare un caffè veloce, scambiare due chiacchiere e iniziare la giornata con energia.",
+        "statement_emojis": ["☕", "🇮🇹", "❤️", "👥", "🏢", "✨", "🚶‍♀️", "🌞", "💬", "⚡"],
+        "question": "Preferisci il caffè espresso al mattino o durante la giornata? Perché?",
+        "question_emojis": ["❓", "☕", "❤️", "🌞", "🚶‍♂️", "✨"]
+    },
+    {
+        "statement": "Le terme di Bormio sono rinomate per le loro acque termali curative e i moderni centri benessere. È una destinazione ideale per chi cerca relax e benessere immersi in uno scenario montano.",
+        "statement_emojis": ["♨️", "🇮🇹", "❤️", "🌿", "💆‍♀️", "🏔️", "✨", "🧖‍♂️", "🌲", "📸"],
+        "question": "Hai mai visitato le terme di Bormio? Cosa ti ha impressionato di più?",
+        "question_emojis": ["❓", "♨️", "❤️", "🌿", "✨", "🧖‍♂️"]
+    },
+    {
+        "statement": "La tradizione del 'caffè sospeso' a Napoli permette a chi non può permettersi un caffè di riceverne uno gratuito. Questo gesto di solidarietà riflette lo spirito generoso della comunità napoletana.",
+        "statement_emojis": ["☕", "🇮🇹", "❤️", "🙏", "✨", "👥", "🔄", "💬", "🌟", "🤝"],
+        "question": "Conosci altre tradizioni di solidarietà in Italia? Quali ti ispirano di più?",
+        "question_emojis": ["❓", "❤️", "🌟", "✨", "🙏", "🤝"]
+    },
+    {
+        "statement": "La tradizione del 'caffè sospeso' a Napoli permette a chi non può permettersi un caffè di riceverne uno gratuito. Questo gesto di solidarietà riflette lo spirito generoso della comunità napoletana.",
+        "statement_emojis": ["☕", "🇮🇹", "❤️", "🙏", "✨", "👥", "🔄", "💬", "🌟", "🤝"],
+        "question": "Conosci altre tradizioni di solidarietà in Italia? Quali ti ispirano di più?",
+        "question_emojis": ["❓", "❤️", "🌟", "✨", "🙏", "🤝"]
+    },
+    {
+        "statement": "La tradizione del 'caffè sospeso' a Napoli permette a chi non può permettersi un caffè di riceverne uno gratuito. Questo gesto di solidarietà riflette lo spirito generoso della comunità napoletana.",
+        "statement_emojis": ["☕", "🇮🇹", "❤️", "🙏", "✨", "👥", "🔄", "💬", "🌟", "🤝"],
+        "question": "Conosci altre tradizioni di solidarietà in Italia? Quali ti ispirano di più?",
+        "question_emojis": ["❓", "❤️", "🌟", "✨", "🙏", "🤝"]
+    }
+]
