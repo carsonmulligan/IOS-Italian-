@@ -1,0 +1,141 @@
+[
+    {
+      "statement": "È davvero affascinante che tu venga dal nord Italia, una regione ricca di storia, tradizioni e paesaggi mozzafiato. Mia nonna, ad esempio, viene da Cismon del Grappa e ogni estate trascorrevo lì, immergendomi nella cultura locale e apprezzando la bellezza delle montagne circostanti.",
+      "statement_emojis": ["🇮🇹", "🏔️", "🏞️", "📜", "🎎", "👵", "☀️", "🌄", "🏡"],
+      "question": "Sei già stato in quella zona prima d'ora? Qual è il nome della tua città natale e cosa ti piace di più di quel luogo?",
+      "question_emojis": ["❓", "🌍", "🏠", "❤️", "📍"]
+    },
+    {
+      "statement": "Quando ero al liceo, mi incuriosiva molto il fatto che l'Italia fosse un tempo divisa in numerosi stati e regni indipendenti, ognuno con i propri dialetti e culture uniche. Questa frammentazione ha sicuramente contribuito alla varietà linguistica e culturale che si osserva oggi in diverse regioni.",
+      "statement_emojis": ["🏫", "🕰️", "🇮🇹", "🏰", "🗣️", "🌐", "📚", "🌍"],
+      "question": "I dialetti sono davvero distinti? Quali ti sembrano i più strani e in che modo influenzano la comunicazione quotidiana?",
+      "question_emojis": ["❓", "🗨️", "🤔", "🔤", "📞"]
+    },
+    {
+      "statement": "Ho approfondito la mia conoscenza sull'Impero Romano ascoltando un podcast in inglese che esplorava dettagliatamente la storia di Roma, dalle sue origini alle sue grandi conquiste. Trovo incredibilmente affascinante come molte delle strutture sociali e legali romane abbiano influenzato la società moderna in vari modi.",
+      "statement_emojis": ["🎧", "🏛️", "📜", "🇮🇹", "📚", "🏺", "⚖️", "🌐"],
+      "question": "Si impara questa storia quando si è giovani a scuola? Impari il latino da bambino e in che modo questa conoscenza ti è utile oggi?",
+      "question_emojis": ["❓", "🎓", "📖", "🧒", "🔤", "💡"]
+    },
+    {
+      "statement": "Recentemente ho visitato una cantina vinicola in Toscana e sono rimasto impressionato dalla passione e dalla dedizione con cui vengono prodotti i vini locali. La combinazione del paesaggio mozzafiato, delle tecniche tradizionali e dell'innovazione moderna rende l'esperienza davvero unica e indimenticabile.",
+      "statement_emojis": ["🍷", "🏞️", "🍇", "🏡", "🔧", "🌿", "✨", "📸"],
+      "question": "Qual è il tuo vino preferito della regione? Hai mai partecipato a degustazioni o visite guidate in cantina?",
+      "question_emojis": ["❓", "🍷", "❤️", "🍇", "👨‍🌾", "🔍"]
+    },
+    {
+      "statement": "Mi piace moltissimo la cucina italiana, soprattutto la pasta fatta in casa. C'è qualcosa di speciale nell'utilizzare ingredienti freschi e nel prendersi il tempo per preparare ogni piatto con cura, creando sapori autentici e deliziosi.",
+      "statement_emojis": ["🍝", "❤️", "👩‍🍳", "🌿", "🍅", "🥫", "🔪", "✨"],
+      "question": "Qual è il tuo piatto preferito da cucinare? Hai qualche ricetta segreta o ingrediente speciale che ami usare?",
+      "question_emojis": ["❓", "🍽️", "❤️", "🔑", "🌟", "📜"]
+    },
+    {
+      "statement": "Ho notato che il sistema ferroviario ad alta velocità in Italia, come il Frecciarossa e Italo, è estremamente efficiente e confortevole. Viaggiare da una città all'altra è diventato molto più semplice e piacevole, permettendo di scoprire nuove destinazioni con facilità.",
+      "statement_emojis": ["🚄", "🇮🇹", "🛤️", "⚡", "😊", "🏙️", "✈️", "🌍"],
+      "question": "Hai mai viaggiato con il Frecciarossa o Italo? Qual è stata la tua esperienza e quali città ti piacerebbe visitare in futuro?",
+      "question_emojis": ["❓", "🚄", "❤️", "✈️", "🏙️", "🔮"]
+    },
+    {
+      "statement": "Durante il mio soggiorno a Firenze, ho avuto l'opportunità di ammirare numerose opere d'arte rinascimentali nei musei e nelle gallerie locali. La bellezza e la maestria di queste opere sono davvero mozzafiato e riflettono la grandezza del periodo rinascimentale.",
+      "statement_emojis": ["🖼️", "🏛️", "🎨", "✨", "👀", "📚", "🌟", "🏰"],
+      "question": "Qual è la tua opera d'arte preferita in città? Hai mai partecipato a visite guidate o eventi culturali a Firenze?",
+      "question_emojis": ["❓", "🎨", "❤️", "🏰", "🎭", "👣"]
+    },
+    {
+      "statement": "Dopo aver trascorso del tempo a Milano, mi sono appassionato alla moda italiana. La creatività e l'innovazione dei designer italiani sono impressionanti e hanno un'influenza globale, rendendo Milano una delle capitali della moda più importanti al mondo.",
+      "statement_emojis": ["👗", "🕶️", "🏙️", "✨", "🎨", "🌐", "🧵", "🏆"],
+      "question": "Segui qualche stilista italiano in particolare? Hai mai visitato una sfilata di moda o uno showroom a Milano?",
+      "question_emojis": ["❓", "👠", "❤️", "🏢", "🎟️", "🛍️"]
+    },
+    {
+      "statement": "Ho scoperto che l'Italia ospita una vasta gamma di festival culturali durante tutto l'anno, ognuno con le proprie tradizioni e celebrazioni uniche. Partecipare a questi eventi è un ottimo modo per immergersi nella cultura locale e conoscere meglio le tradizioni regionali.",
+      "statement_emojis": ["🎉", "🇮🇹", "🎶", "🌍", "📅", "🕺", "💃", "🎊"],
+      "question": "Qual è il tuo festival preferito e perché? Hai mai partecipato a un festival culturale italiano?",
+      "question_emojis": ["❓", "🎊", "❤️", "🎭", "🌟", "🎟️"]
+    },
+    {
+      "statement": "Sto cercando di migliorare il mio italiano leggendo libri di autori italiani contemporanei e classici. La letteratura italiana offre una prospettiva profonda sulla cultura, la storia e le dinamiche sociali del paese, arricchendo la mia comprensione della lingua.",
+      "statement_emojis": ["📚", "🇮🇹", "🖋️", "📖", "📘", "🧠", "🌍", "🔍"],
+      "question": "Quali libri o autori mi consiglieresti? Hai un genere preferito nella letteratura italiana?",
+      "question_emojis": ["❓", "📚", "✨", "📖", "🖊️", "❤️"]
+    },
+    {
+      "statement": "La scorsa settimana ho partecipato a un corso di cucina italiana dove ho imparato a preparare piatti tradizionali come la lasagna e il tiramisù. È stata un'esperienza divertente e educativa che mi ha permesso di apprezzare ancora di più la cucina italiana.",
+      "statement_emojis": ["🍝", "🍰", "👨‍🍳", "🎓", "📅", "😄", "📚", "❤️"],
+      "question": "Hai mai fatto un corso simile? Cosa hai imparato e quale piatto ti è piaciuto di più preparare?",
+      "question_emojis": ["❓", "👩‍🍳", "📚", "🍽️", "❤️", "🔍"]
+    },
+    {
+      "statement": "Mi affascina la diversità geografica dell'Italia, dalle maestose Alpi alle splendide coste mediterranee. Ogni regione ha il suo paesaggio unico e offre opportunità diverse per attività all'aperto, dalla sciistica al nuoto.",
+      "statement_emojis": ["🏔️", "🏖️", "🌳", "🚴‍♂️", "🌍", "❄️", "🏊‍♀️", "🌄"],
+      "question": "Qual è il tuo paesaggio preferito in Italia? Hai una regione che ami particolarmente per le sue bellezze naturali?",
+      "question_emojis": ["❓", "🏞️", "❤️", "🌿", "📍", "🌸"]
+    },
+    {
+      "statement": "Ho notato che molte città italiane mantengono un centro storico ben conservato, ricco di monumenti e architetture storiche. Passeggiare per queste aree è come fare un viaggio indietro nel tempo, scoprendo storie e tradizioni secolari.",
+      "statement_emojis": ["🏰", "🏛️", "🚶‍♂️", "🕰️", "📜", "🏙️", "✨", "🏠"],
+      "question": "Qual è la tua città storica preferita da visitare? C'è un monumento o un edificio che ti ha colpito particolarmente?",
+      "question_emojis": ["❓", "🏛️", "❤️", "🏰", "✨", "📍"]
+    },
+    {
+      "statement": "Recentemente ho iniziato a seguire una squadra di calcio italiana e ho scoperto quanto sia appassionata la tifoseria locale. Il calcio è una parte integrante della cultura italiana e unisce le persone di tutte le età in un'unica passione.",
+      "statement_emojis": ["⚽", "🇮🇹", "🎉", "❤️", "🏟️", "👥", "🎽", "🏆"],
+      "question": "Qual è la tua squadra di calcio preferita e perché? Hai mai assistito a una partita dal vivo?",
+      "question_emojis": ["❓", "⚽", "❤️", "🏟️", "🎟️", "👀"]
+    },
+    {
+      "statement": "Sono sempre stato curioso di sapere come le tradizioni familiari influenzano la vita quotidiana in Italia. Le feste e le riunioni di famiglia sembrano avere un ruolo centrale nella società italiana, rafforzando i legami e mantenendo vive le tradizioni.",
+      "statement_emojis": ["👨‍👩‍👧‍👦", "🎉", "🇮🇹", "❤️", "📅", "🎊", "🔗", "🌿"],
+      "question": "Puoi raccontarmi qualche tradizione particolare della tua famiglia? Come celebrate le feste importanti?",
+      "question_emojis": ["❓", "📜", "👨‍👩‍👧‍👦", "🎁", "🎊", "❤️"]
+    },
+    {
+      "statement": "Ho visto che l'Italia vanta numerosi siti patrimonio dell'UNESCO, ognuno con il suo valore storico e culturale. Questi luoghi testimoniano la ricca storia e il patrimonio artistico del paese, attirando visitatori da tutto il mondo.",
+      "statement_emojis": ["🏛️", "🌍", "📜", "✨", "🗺️", "🎨", "❤️", "🏆"],
+      "question": "Qual è il tuo sito UNESCO preferito e perché? Hai mai visitato altri siti riconosciuti dall'UNESCO in Italia?",
+      "question_emojis": ["❓", "🏰", "❤️", "🌟", "🌍", "🔍"]
+    },
+    {
+      "statement": "Mi piacerebbe imparare a suonare uno strumento musicale tradizionale italiano, come la fisarmonica o la chitarra napoletana. La musica italiana ha una melodia e una passione uniche che mi ispirano molto.",
+      "statement_emojis": ["🎶", "🇮🇹", "🎸", "🎹", "🎵", "❤️", "✨", "🪕"],
+      "question": "Quale strumento mi consigli e come posso iniziare? Hai esperienza con la musica tradizionale italiana?",
+      "question_emojis": ["❓", "🎸", "📚", "🎵", "❤️", "🎼"]
+    },
+    {
+      "statement": "Ho sentito parlare molto del Carnevale di Venezia e delle sue maschere elaborate. L'idea di partecipare a una festa così vivace e colorata mi entusiasma molto, immaginando le strade piene di vita e di musica.",
+      "statement_emojis": ["🎭", "🎉", "🇮🇹", "🎶", "🌈", "🏰", "🕺", "💃"],
+      "question": "Hai mai partecipato al Carnevale? Com'è stata l'esperienza e quali sono le tradizioni principali durante il Carnevale?",
+      "question_emojis": ["❓", "🎭", "🎊", "❤️", "🎶", "✨"]
+    },
+    {
+      "statement": "Sono affascinato dalla lingua italiana e dalla sua musicalità. Ogni parola sembra avere un ritmo e una melodia particolari che la rendono piacevole da ascoltare e parlare, rendendo la conversazione fluida e armoniosa.",
+      "statement_emojis": ["🇮🇹", "🎶", "🗣️", "❤️", "🔤", "🎵", "✨", "💬"],
+      "question": "Quali sono i suoni o le parole italiane che ti piacciono di più? C'è qualche espressione idiomatica che usi spesso?",
+      "question_emojis": ["❓", "🔊", "🔤", "❤️", "🗨️", "✨"]
+    },
+    {
+      "statement": "Mi interesso molto delle tradizioni culinarie regionali italiane, come la cucina piemontese o quella siciliana. Ogni regione ha i suoi ingredienti e piatti tipici che riflettono la storia e la geografia della zona, creando sapori unici e distintivi.",
+      "statement_emojis": ["🍲", "🍝", "🇮🇹", "🌍", "🧀", "🍅", "🍋", "🍖"],
+      "question": "Qual è la tua cucina regionale preferita e perché? Hai mai provato a cucinare qualche piatto tradizionale di quella regione?",
+      "question_emojis": ["❓", "🍽️", "❤️", "🍳", "📜", "👨‍🍳"]
+    },
+    {
+      "statement": "Durante le mie ricerche, ho scoperto che l'arte barocca italiana ha avuto un impatto significativo sull'architettura e sull'arte europea. Gli edifici e le chiese barocche sono incredibilmente dettagliati e ornamentali, mostrando una grande maestria artistica.",
+      "statement_emojis": ["🏰", "🎨", "🇮🇹", "✨", "🏛️", "⛪", "🔍", "🌟"],
+      "question": "Qual è il tuo esempio preferito di architettura barocca in Italia? Hai visitato chiese o palazzi barocchi che ti hanno colpito particolarmente?",
+      "question_emojis": ["❓", "🏛️", "❤️", "⛪", "✨", "🔍"]
+    },
+    {
+      "statement": "Ho recentemente visto un documentario sulle tradizioni vinicole italiane e quanto siano radicate nella cultura e nell'economia locale. La passione per il vino è evidente in ogni fase della produzione, dalla coltivazione delle uve alla degustazione finale.",
+      "statement_emojis": ["🍇", "🍷", "🎥", "🇮🇹", "🌱", "💼", "❤️", "🔍"],
+      "question": "Come influisce la produzione vinicola sulla vita quotidiana nelle regioni vinicole italiane? Hai mai partecipato a una vendemmia o a una degustazione di vini?",
+      "question_emojis": ["❓", "🍇", "🍷", "🏡", "👨‍🌾", "🔍"]
+    },
+    {
+      "statement": "Mi affascina l'idea delle città d'arte italiane come Venezia, Roma e Firenze, ognuna con la propria storia unica e le proprie bellezze artistiche che attirano milioni di turisti ogni anno. Ogni visita a queste città è un'esperienza ricca di scoperte e meraviglie.",
+      "statement_emojis": ["🏛️", "🎨", "🌍", "✨", "🗺️", "❤️", "👀", "🖼️"],
+      "question": "Quale città d'arte italiana ti piacerebbe visitare di più e perché? C'è qualche monumento o museo che non vedi l'ora di vedere?",
+      "question_emojis": ["❓", "🏰", "❤️", "🖼️", "🏙️", "🔍"]
+    }
+  ]
+  

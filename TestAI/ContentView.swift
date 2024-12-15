@@ -10,31 +10,18 @@ struct Flashcard: Identifiable {
     let questionEmojis: [String]
 }
 
+// Add this struct to conform to Codable
+struct FlashcardData: Codable {
+    let statement: String
+    let statement_emojis: [String]
+    let question: String
+    let question_emojis: [String]
+}
+
 // MARK: - ContentView
 struct ContentView: View {
     // MARK: - Properties
-    @State private var flashcards: [Flashcard] = [
-        Flashcard(
-            statement: "È davvero affascinante che tu venga dal nord Italia, una regione ricca di storia, tradizioni e paesaggi mozzafiato. Mia nonna, ad esempio, viene da Cismon del Grappa e ogni estate trascorrevo lì, immergendomi nella cultura locale e apprezzando la bellezza delle montagne circostanti.",
-            statementEmojis: ["🤩", "👉", "🌍", "🇮🇹", "📜", "🎎", "🌄", "👵", "📍", "☀️", "🏡", "🌐", "❤️", "🏔️"],
-            question: "Sei già stato in quella zona prima d'ora? Qual è il nome della tua città natale e cosa ti piace di più di quel luogo?",
-            questionEmojis: ["❓", "🚶‍♂️", "📍", "🕰️", "🏠", "❤️", "📍"]
-        ),
-        Flashcard(
-            statement: "Quando ero al liceo, mi incuriosiva molto il fatto che l'Italia fosse un tempo divisa in numerosi stati e regni indipendenti, ognuno con i propri dialetti e culture uniche. Questa frammentazione ha sicuramente contribuito alla varietà linguistica e culturale che si osserva oggi in diverse regioni.",
-            statementEmojis: ["⏳", "🏫", "🧑‍🎓", "🔍", "🇮🇹", "⏰", "✂️", "🌐", "🏰", "🗣️", "🌍", "📚", "🔄", "🗣️", "🌍"],
-            question: "I dialetti sono davvero distinti? Quali ti sembrano i più strani e in che modo influenzano la comunicazione quotidiana?",
-            questionEmojis: ["❓", "🗣️", "🔍", "🤨", "⚙️", "💬", "📅"]
-        ),
-        // ... (Add all other flashcards here in the same format)
-        Flashcard(
-            statement: "Mi interesso molto delle tradizioni culinarie regionali italiane, come la cucina piemontese o quella siciliana. Ogni regione ha i suoi ingredienti e piatti tipici che riflettono la storia e la geografia della zona, creando sapori unici e distintivi.",
-            statementEmojis: ["❤️", "🔍", "🍲", "🍝", "🇮🇹", "📍", "🥫", "🍅", "📜", "📍", "🍲", "✨", "🔑", "🔍"],
-            question: "Qual è la tua cucina regionale preferita e perché? Hai mai provato a cucinare qualche piatto tradizionale di quella regione?",
-            questionEmojis: ["❓", "🍽️", "❤️", "🔍", "👨‍🍳", "🔪", "📜", "🍲", "📍"]
-        )
-        // Add all remaining flashcards similarly...
-    ]
+    @State private var flashcards: [Flashcard] = []
     
     @State private var currentCardIndex: Int = 0
     @State private var isFlipped: Bool = false
@@ -158,6 +145,29 @@ struct ContentView: View {
         let utterance = AVSpeechUtterance(string: text)
         utterance.voice = AVSpeechSynthesisVoice(language: "it-IT")
         speechSynthesizer.speak(utterance)
+    }
+    
+    // Add this extension to load flashcards from JSON
+    private func loadFlashcards() -> [Flashcard] {
+        guard let url = Bundle.main.url(forResource: "questions", withExtension: "json"),
+              let data = try? Data(contentsOf: url),
+              let flashcardData = try? JSONDecoder().decode([FlashcardData].self, from: data) else {
+            return []
+        }
+        
+        return flashcardData.map { data in
+            Flashcard(
+                statement: data.statement,
+                statementEmojis: data.statement_emojis,
+                question: data.question,
+                questionEmojis: data.question_emojis
+            )
+        }
+    }
+    
+    // Add this to your ContentView
+    init() {
+        _flashcards = State(initialValue: loadFlashcards())
     }
 }
 
