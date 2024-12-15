@@ -47,14 +47,18 @@ struct ContentView: View {
                                 .font(.headline)
                                 .padding()
                             
-                            Text(flashcards[currentCardIndex].question)
-                                .font(.subheadline)
-                                .padding([.leading, .trailing, .bottom])
+                            HStack {
+                                ForEach(flashcards[currentCardIndex].statementEmojis, id: \.self) { emoji in
+                                    Text(emoji)
+                                        .font(.largeTitle)
+                                }
+                            }
+                            .padding()
                         }
                         
                         // Play Button
                         Button(action: {
-                            playText(text: flashcards[currentCardIndex].statement + " " + flashcards[currentCardIndex].question)
+                            playText(text: flashcards[currentCardIndex].statement)
                         }) {
                             Image(systemName: "speaker.wave.2.fill")
                                 .resizable()
@@ -73,13 +77,9 @@ struct ContentView: View {
                     
                     VStack(spacing: 20) {
                         ScrollView {
-                            HStack {
-                                ForEach(flashcards[currentCardIndex].statementEmojis, id: \.self) { emoji in
-                                    Text(emoji)
-                                        .font(.largeTitle)
-                                }
-                            }
-                            .padding()
+                            Text(flashcards[currentCardIndex].question)
+                                .font(.headline)
+                                .padding()
                             
                             HStack {
                                 ForEach(flashcards[currentCardIndex].questionEmojis, id: \.self) { emoji in
@@ -89,6 +89,17 @@ struct ContentView: View {
                             }
                             .padding()
                         }
+                        
+                        // Play Button
+                        Button(action: {
+                            playText(text: flashcards[currentCardIndex].question)
+                        }) {
+                            Image(systemName: "speaker.wave.2.fill")
+                                .resizable()
+                                .frame(width: 50, height: 50)
+                                .foregroundColor(.blue)
+                        }
+                        .padding(.bottom, 20)
                     }
                 }
             }
