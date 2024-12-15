@@ -148,6 +148,7 @@ struct ContentView: View {
                         }
                         .padding(.bottom, 16)
                     }
+                    .rotation3DEffect(.degrees(180), axis: (x: 0, y: 1, z: 0))
                 }
             }
             .frame(width: UIScreen.main.bounds.width * 0.9, height: UIScreen.main.bounds.height * 0.6)
